@@ -1,0 +1,227 @@
+@page "/dashboards"
+
+<div class="row-layout dashboards-container">
+    <div class="column-layout dashboards">
+        <div class="row-layout group">
+            <div class="row-layout left">
+                <IgbAvatar Src="assets/a221f4a8bd65de43920e3f5b81c2fd32dd99243d.png" Shape="AvatarShape.Circle" class="avatar" dashboards-scope></IgbAvatar>
+                <IgbButton Variant="ButtonVariant.Flat" Size="SizableComponentSize.Large" class="button button_3" dashboards-scope>
+                    <span>home</span>
+                    <span class="material-icons">
+                        keyboard_arrow_down
+                    </span>
+                    <IgbRipple></IgbRipple>
+                </IgbButton>
+            </div>
+            <div class="row-layout right">
+                <div class="row-layout group_1">
+                    <IgbButton Size="SizableComponentSize.Large" class="button_1 button_1_1" dashboards-scope>
+                        <span class="material-icons">
+                            add
+                        </span>
+                        <span>task</span>
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                    <span class="material-icons icon-notifications">
+                        notifications
+                    </span>
+                    <span class="material-icons icon-chat">
+                        mode_comment
+                    </span>
+                </div>
+                <div class="row-layout group_2">
+                    <IgbAvatar Src="assets/a7f211be67afc061d9571f5b5b5236cd92420e0c.png" Shape="AvatarShape.Circle" class="avatar" dashboards-scope></IgbAvatar>
+                </div>
+            </div>
+        </div>
+        <div class="row-layout background">
+            <IgbNavDrawer Position="NavDrawerPosition.Relative" class="nav-drawer" dashboards-scope>
+                <div slot="mini">
+                    <IgbNavDrawerItem class="nav-drawer-item" dashboards-scope>
+                        <span slot="icon">
+                            <span class="material-icons icon">
+                                check_box
+                            </span>
+                            <IgbRipple></IgbRipple>
+                        </span>
+                    </IgbNavDrawerItem>
+                    <IgbNavDrawerItem class="nav-drawer-item_1" dashboards-scope>
+                        <span slot="icon">
+                            <span class="material-icons icon_1">
+                                dashboard
+                            </span>
+                            <IgbRipple></IgbRipple>
+                        </span>
+                    </IgbNavDrawerItem>
+                    <IgbNavDrawerItem class="nav-drawer-item_1" dashboards-scope>
+                        <span slot="icon">
+                            <span class="material-icons icon">
+                                directions
+                            </span>
+                            <IgbRipple></IgbRipple>
+                        </span>
+                    </IgbNavDrawerItem>
+                </div>
+                <IgbNavDrawerItem class="nav-drawer-item" dashboards-scope>
+                    <span slot="icon">
+                        <span class="material-icons icon">
+                            check_box
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </span>
+                    <div slot="content">Title goes here</div>
+                </IgbNavDrawerItem>
+                <IgbNavDrawerItem class="nav-drawer-item_1" dashboards-scope>
+                    <span slot="icon">
+                        <span class="material-icons icon_1">
+                            dashboard
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </span>
+                    <div slot="content">Title goes here</div>
+                </IgbNavDrawerItem>
+                <IgbNavDrawerItem class="nav-drawer-item_1" dashboards-scope>
+                    <span slot="icon">
+                        <span class="material-icons icon">
+                            directions
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </span>
+                    <div slot="content">Title goes here</div>
+                </IgbNavDrawerItem>
+            </IgbNavDrawer>
+            <div class="column-layout group_3">
+                <h6 class="title_1">
+                    Dashboards
+                </h6>
+                <IgbList class="listone-line-item-list" dashboards-scope>
+                    <IgbListItem>
+                        <div slot="title">Dashboards</div>
+                        <span slot="end" class="material-icons icon">
+                            dashboard
+                        </span>
+                    </IgbListItem>
+                    <IgbListItem>
+                        <div slot="title">Favorites</div>
+                        <span slot="end" class="material-icons icon">
+                            star
+                        </span>
+                    </IgbListItem>
+                    <IgbListItem>
+                        <div slot="title">Recent</div>
+                        <span slot="end" class="material-icons icon">
+                            access_time
+                        </span>
+                    </IgbListItem>
+                    <IgbListItem>
+                        <div slot="title">Samples</div>
+                        <span slot="end" class="material-icons icon">
+                            web
+                        </span>
+                    </IgbListItem>
+                </IgbList>
+            </div>
+            <div class="column-layout group_4">
+                <div class="column-layout group_5">
+                    <div class="row-layout title">
+                        <h5 class="title_2">
+                            Recent
+                        </h5>
+                    </div>
+                    <div class="row-layout cards">
+                        <IgbCard Outlined="true" class="card" dashboards-scope>
+                            <IgbCardMedia class="media-content" dashboards-scope>
+                                <img src="assets/d5940343231ffeb68bbd1aa37c8ba3b883b4c980.png" class="image" />
+                            </IgbCardMedia>
+                            <IgbCardHeader>
+                                <h3 slot="title">
+                                    Artists Analysis
+                                </h3>
+                                <h5 slot="subtitle">
+                                    Jun 15, 2020 - Jason Anderson
+                                </h5>
+                            </IgbCardHeader>
+                            <IgbCardActions class="actions-content" dashboards-scope>
+                                <IgbIconButton Variant="IconButtonVariant.Flat">
+                                    <span class="material-icons">
+                                        star_border
+                                    </span>
+                                    <IgbRipple></IgbRipple>
+                                </IgbIconButton>
+                                <IgbIconButton Variant="IconButtonVariant.Flat" class="button_4" dashboards-scope>
+                                    <span class="material-icons">
+                                        share
+                                    </span>
+                                    <IgbRipple></IgbRipple>
+                                </IgbIconButton>
+                            </IgbCardActions>
+                        </IgbCard>
+                        <IgbCard Outlined="true" class="card" dashboards-scope>
+                            <IgbCardMedia class="media-content" dashboards-scope>
+                                <img src="assets/3ea81e508b9edb7417c08259723ac471a0f1d60c.png" class="image" />
+                            </IgbCardMedia>
+                            <IgbCardHeader>
+                                <h3 slot="title">
+                                    For evaluation
+                                </h3>
+                                <h5 slot="subtitle">
+                                    Jun 15, 2020 - Martina Roberts
+                                </h5>
+                            </IgbCardHeader>
+                            <IgbCardActions class="actions-content" dashboards-scope>
+                                <IgbIconButton Variant="IconButtonVariant.Flat">
+                                    <span class="material-icons">
+                                        star
+                                    </span>
+                                    <IgbRipple></IgbRipple>
+                                </IgbIconButton>
+                                <IgbIconButton Variant="IconButtonVariant.Flat" class="button_4_1" dashboards-scope>
+                                    <span class="material-icons">
+                                        share
+                                    </span>
+                                    <IgbRipple></IgbRipple>
+                                </IgbIconButton>
+                            </IgbCardActions>
+                        </IgbCard>
+                        <IgbCard Outlined="true" class="card" dashboards-scope>
+                            <IgbCardMedia class="media-content" dashboards-scope>
+                                <img src="assets/d5940343231ffeb68bbd1aa37c8ba3b883b4c980.png" class="image" />
+                            </IgbCardMedia>
+                            <IgbCardHeader>
+                                <h3 slot="title">
+                                    Stylescape Results
+                                </h3>
+                                <h5 slot="subtitle">
+                                    Jun 15, 2020 - Caroline Sanders
+                                </h5>
+                            </IgbCardHeader>
+                            <IgbCardActions class="actions-content" dashboards-scope>
+                                <IgbIconButton Variant="IconButtonVariant.Flat">
+                                    <span class="material-icons">
+                                        star_border
+                                    </span>
+                                    <IgbRipple></IgbRipple>
+                                </IgbIconButton>
+                                <IgbIconButton Variant="IconButtonVariant.Flat" class="button_4_2" dashboards-scope>
+                                    <span class="material-icons">
+                                        share
+                                    </span>
+                                    <IgbRipple></IgbRipple>
+                                </IgbIconButton>
+                            </IgbCardActions>
+                        </IgbCard>
+                    </div>
+                </div>
+                <IgbButton Variant="ButtonVariant.Fab" Size="SizableComponentSize.Large" class="button_2" dashboards-scope>
+                    <span class="material-icons">
+                        add
+                    </span>
+                    <IgbRipple></IgbRipple>
+                </IgbButton>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+}

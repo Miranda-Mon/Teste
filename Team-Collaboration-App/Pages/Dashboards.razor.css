@@ -1,0 +1,264 @@
+.row-layout {
+    display: flex;
+}
+.dashboards-container {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    height: 100%;
+}
+.column-layout {
+    display: flex;
+    flex-direction: column;
+}
+.dashboards {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: min-content;
+}
+.group {
+    background-color: hsla(var(--ig-secondary-500));
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    position: relative;
+    padding: 0 0 0 20px;
+    width: 100%;
+    height: 60px;
+    min-width: 1440px;
+}
+.left {
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+    position: relative;
+    width: 10.7%;
+    height: 66.7%;
+    min-width: 152px;
+    min-height: 40px;
+}
+.right {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    right: 20px;
+    top: 17%;
+    position: absolute;
+    width: 16.9%;
+    height: 66.7%;
+    min-width: 240px;
+    min-height: 40px;
+}
+.group_1 {
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+    position: relative;
+    padding: 2px 12px 2px 0;
+    width: 78.3%;
+    height: 100%;
+    min-width: 188px;
+    min-height: 40px;
+}
+.group_2 {
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: flex-start;
+    position: relative;
+    width: 21.7%;
+    height: 100%;
+    min-width: 52px;
+    min-height: 40px;
+}
+.background {
+    background-color: hsla(var(--ig-surface-500));
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    position: relative;
+    width: 100%;
+    height: 840px;
+    min-width: 1440px;
+}
+.group_3 {
+    background-color: hsla(var(--ig-gray-200));
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    left: 5%;
+    top: 0;
+    position: absolute;
+    padding: 28px 0 0 16px;
+    width: 250px;
+    height: 100%;
+    min-width: min-content;
+    min-height: 840px;
+}
+.group_4 {
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    left: 25%;
+    top: 2%;
+    position: absolute;
+    width: 73.5%;
+    height: 95.5%;
+    min-width: 1058px;
+    min-height: 802px;
+}
+.group_5 {
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    position: relative;
+    width: 72.6%;
+    height: 47.9%;
+    min-width: 768px;
+    min-height: 384px;
+}
+.title {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    position: relative;
+    width: 9.2%;
+    height: 7.3%;
+    min-width: 71px;
+    min-height: 28px;
+}
+.cards {
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+    position: relative;
+    width: 100%;
+    height: 86.5%;
+    min-width: 768px;
+    min-height: 332px;
+}
+.card {
+    position: relative;
+    width: 31.2%;
+    height: max-content;
+    min-width: min-content;
+}
+.avatar {
+    --background: none;
+    --ig-gray-400: transparent;
+    position: relative;
+}
+.icon-notifications {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    color: #FFFFFFFF;
+    position: relative;
+    margin: 0 0 0 16px;
+    min-width: min-content;
+}
+.icon-chat {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    min-width: min-content;
+}
+.icon {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+}
+.icon_1 {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    color: hsla(var(--ig-primary-500));
+}
+.title_1 {
+    color: #FFFFFFDE;
+    position: relative;
+    width: 104px;
+    height: max-content;
+}
+.title_2 {
+    color: #FFFFFFDE;
+    position: relative;
+    width: 71px;
+    height: max-content;
+    min-width: min-content;
+}
+.image {
+    height: 100%;
+}
+.avatar::part(base) {
+    background-color: #FFFFFF00;
+}
+.button {
+    position: relative;
+    margin: 2px 0;
+    width: 104px;
+    height: max-content;
+    min-width: min-content;
+}
+.button_1 {
+    position: relative;
+    width: 96px;
+    height: max-content;
+    min-width: min-content;
+}
+.button_2 {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+}
+.button_3::part(base) {
+    color: #000000FF;
+}
+.button_1_1::part(base) {
+    color: #000000FF;
+    background-color: #FFFFFFFF;
+}
+.media-content {
+    height: 194px;
+}
+.actions-content {
+    min-width: 50px;
+    min-height: 40px;
+}
+.button_4::part(base) {
+    color: hsla(var(--ig-gray-800));
+}
+.button_4_1::part(base) {
+    color: hsla(var(--ig-gray-800));
+}
+.button_4_2::part(base) {
+    color: hsla(var(--ig-gray-800));
+}
+.nav-drawer {
+    min-width: min-content;
+}
+.nav-drawer-item {
+    position: relative;
+    min-width: 0;
+    min-height: 0;
+}
+.nav-drawer-item_1 {
+    position: relative;
+    margin: 8px 0 0;
+    min-width: 0;
+    min-height: 0;
+}
+.nav-drawer::part(main) {
+    width: 68px;
+}
+.listone-line-item-list {
+    position: relative;
+    margin: 24px 0 0;
+    width: 218px;
+}

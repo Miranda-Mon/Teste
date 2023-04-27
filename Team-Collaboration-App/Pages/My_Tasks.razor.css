@@ -1,0 +1,424 @@
+.row-layout {
+    display: flex;
+}
+.my-tasks-container {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    height: 100%;
+}
+.column-layout {
+    display: flex;
+    flex-direction: column;
+}
+.my-tasks {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: min-content;
+}
+.group {
+    background-color: hsla(var(--ig-secondary-500));
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    position: relative;
+    padding: 0 0 0 20px;
+    width: 100%;
+    height: 60px;
+    min-width: 1440px;
+}
+.left {
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+    position: relative;
+    width: 10.7%;
+    height: 66.7%;
+    min-width: 152px;
+    min-height: 40px;
+}
+.right {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    right: 20px;
+    top: 17%;
+    position: absolute;
+    width: 16.9%;
+    height: 66.7%;
+    min-width: 240px;
+    min-height: 40px;
+}
+.group_1 {
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+    position: relative;
+    padding: 2px 12px 2px 0;
+    width: 78.3%;
+    height: 100%;
+    min-width: 188px;
+    min-height: 40px;
+}
+.group_2 {
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: flex-start;
+    position: relative;
+    width: 21.7%;
+    height: 100%;
+    min-width: 52px;
+    min-height: 40px;
+}
+.background {
+    background-color: hsla(var(--ig-surface-500));
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    position: relative;
+    width: 100%;
+    height: 840px;
+    min-width: 1440px;
+}
+.group_3 {
+    background-color: hsla(var(--ig-gray-200));
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    left: 5%;
+    top: 0;
+    position: absolute;
+    padding: 28px 0 0 16px;
+    width: 250px;
+    height: 100%;
+    min-width: min-content;
+    min-height: 840px;
+}
+.group_4 {
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+    left: 25%;
+    top: 10px;
+    position: absolute;
+    width: 72.4%;
+    height: 740px;
+    min-width: 1042px;
+}
+.group_5 {
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    position: relative;
+    width: 100%;
+    height: 36px;
+    min-width: 1042px;
+}
+.left_1 {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    position: relative;
+    width: 90px;
+    height: 28px;
+    min-width: min-content;
+}
+.right_1 {
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 38.8%;
+    height: 100%;
+    min-width: 404px;
+    min-height: 36px;
+}
+.group_6 {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    position: relative;
+    width: 100%;
+    height: 672px;
+    min-width: 1042px;
+}
+.group_7 {
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+    position: relative;
+    width: 61.6%;
+    height: 672px;
+    min-width: 642px;
+}
+.group_8 {
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    position: relative;
+    width: 100%;
+    height: 31.5%;
+    min-width: 642px;
+    min-height: 212px;
+}
+.group_9 {
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    position: relative;
+    width: 100%;
+    height: 64.9%;
+    min-width: 642px;
+    min-height: 436px;
+}
+.group_10 {
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 360px;
+    height: 668px;
+    min-width: min-content;
+}
+.avatar {
+    --background: none;
+    --ig-gray-400: transparent;
+    position: relative;
+}
+.icon-notifications {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    color: #FFFFFFFF;
+    position: relative;
+    margin: 0 0 0 16px;
+    min-width: min-content;
+}
+.icon-chat {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    min-width: min-content;
+}
+.icon {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    color: hsla(var(--ig-primary-500));
+}
+.icon_1 {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+}
+.title {
+    color: #FFFFFFDE;
+    position: relative;
+    width: 49px;
+    height: max-content;
+}
+.subtitle {
+    color: #FFFFFFDE;
+    position: relative;
+    margin: 24px 0 0;
+    width: 66px;
+    height: max-content;
+}
+.title_1 {
+    color: #FFFFFFDE;
+    position: relative;
+    margin: 32px 0 0;
+    width: 34px;
+    height: max-content;
+}
+.title_2 {
+    color: #FFFFFFDE;
+    position: relative;
+    margin: 32px 0 0;
+    width: 49px;
+    height: max-content;
+}
+.title_3 {
+    color: #FFFFFFDE;
+    position: relative;
+    width: 90px;
+    height: max-content;
+}
+.title_4 {
+    color: #FFFFFFDE;
+    position: relative;
+    width: 138px;
+    height: max-content;
+}
+.subtitle_1 {
+    color: #FFFFFFDE;
+    position: relative;
+    width: 95px;
+    height: max-content;
+}
+.icon_2 {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    color: hsla(var(--ig-gray-700));
+}
+.subtitle_2 {
+    color: #FFFFFFDE;
+    position: relative;
+    width: 175px;
+    height: max-content;
+}
+.calendar {
+    position: relative;
+    width: 100%;
+    height: max-content;
+}
+.title_5 {
+    color: #FFFFFFDE;
+    position: relative;
+    width: 150px;
+    height: max-content;
+}
+.icon_3 {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    color: #E051A9FF;
+}
+.icon_4 {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    color: hsla(var(--ig-primary-300));
+}
+.avatar_1::part(base) {
+    background-color: #FFFFFF00;
+}
+.avatar_2::part(base) {
+    background-color: #FFFFFF00;
+}
+.avatar_3::part(base) {
+    color: hsla(var(--ig-gray-800));
+}
+.avatar_4::part(base) {
+    color: hsla(var(--ig-gray-800));
+}
+.button {
+    position: relative;
+    margin: 2px 0;
+    width: 104px;
+    height: max-content;
+    min-width: min-content;
+}
+.button_1 {
+    position: relative;
+    width: 96px;
+    height: max-content;
+    min-width: min-content;
+}
+.buttonflatenabled {
+    position: relative;
+    margin: 24px 0 0;
+    width: 80px;
+    height: max-content;
+}
+.buttonflatenabled_1 {
+    position: relative;
+    margin: 24px 0 0;
+    width: 96px;
+    height: max-content;
+}
+.button_2 {
+    position: relative;
+    width: 88px;
+    height: max-content;
+    min-width: min-content;
+}
+.button_3 {
+    position: relative;
+    width: 112px;
+    height: max-content;
+    min-width: min-content;
+}
+.button_4 {
+    position: relative;
+    width: 100px;
+    height: max-content;
+    min-width: min-content;
+}
+.button_5 {
+    position: relative;
+    width: 80px;
+    height: max-content;
+}
+.button_6 {
+    position: relative;
+    width: 79.02px;
+    height: max-content;
+}
+.button_7::part(base) {
+    color: #000000FF;
+}
+.button_1_1::part(base) {
+    color: #000000FF;
+    background-color: #FFFFFFFF;
+}
+.buttonflatenabled_2::part(base) {
+    color: #72DA67FF;
+}
+.buttonflatenabled_1_1::part(base) {
+    color: #72DA67FF;
+}
+.button_2_1::part(base) {
+    color: #72DA67FF;
+}
+.button_3_1::part(base) {
+    color: #72DA67FF;
+}
+.button_4_1::part(base) {
+    color: #72DA67FF;
+}
+.button_5_1::part(base) {
+    color: #72DA67FF;
+}
+.button_6_1::part(base) {
+    color: #72DA67FF;
+}
+.button-filter {
+    position: relative;
+}
+.nav-drawer {
+    min-width: min-content;
+}
+.nav-drawer-item {
+    position: relative;
+    min-width: 0;
+    min-height: 0;
+}
+.nav-drawer-item_1 {
+    position: relative;
+    margin: 8px 0 0;
+    min-width: 0;
+    min-height: 0;
+}
+.nav-drawer::part(main) {
+    width: 68px;
+}
+.listone-line-item-list {
+    position: relative;
+    margin: 16px 0 0;
+    width: 218px;
+}
+.list {
+    position: relative;
+    width: 100%;
+}
